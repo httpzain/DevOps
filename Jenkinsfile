@@ -12,7 +12,7 @@ pipeline {
       }
       stage("Checkout from SCM"){
               steps {
-                  git branch: 'main' , crendentialsId: 'github' , url: 'https://github.com/httpzain/DevOps/edit/main/Jenkinsfile'
+                  git branch: 'main', crendentialsId: 'github', url: 'https://github.com/httpzain/DevOps/edit/main/Jenkinsfile'
               }
       }
 
